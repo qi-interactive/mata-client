@@ -45,7 +45,7 @@ class Bootstrap extends \mata\base\Bootstrap {
 
 		$clientItem = new ClientItem();
 		$clientItem->attributes = [
-		"CategoryId" => $clientId,
+		"ClientId" => $clientId,
 		"DocumentId" => $documentId
 		];
 
