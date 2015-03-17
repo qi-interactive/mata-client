@@ -22,6 +22,10 @@ class Client extends \matacms\db\ActiveRecord {
         return '{{%mata_client}}';
     }
 
+    public static function find() {
+        return new ClientQuery(get_called_class());
+    }
+
     /**
      * @inheritdoc
      */
