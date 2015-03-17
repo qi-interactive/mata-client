@@ -30,7 +30,7 @@ class ClientItem extends \matacms\db\ActiveRecord {
     }
 
     public static function find() {
-        return parent::find()->orderBy('Order');
+        return new ClientItemQuery(get_called_class());
     }
 
     /**
