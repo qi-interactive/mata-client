@@ -1,0 +1,6 @@
+{
+    "name": "Client",
+    "description": "Client managment for MATA CMS",
+    "icon" : "/images/module-icon.svg",
+    "version" : 1.0
+}

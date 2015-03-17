@@ -1,0 +1,23 @@
+{
+    "name": "mata/mata-client",
+    "description": "Manages clients for AR models",
+    "keywords": ["yii2", "mata-client", "client", "mata"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "codeception/codeception": "*",
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-faker": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "mata\\client\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "mata\\client\\Bootstrap"
+    }
+}
