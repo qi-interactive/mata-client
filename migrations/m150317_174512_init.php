@@ -15,7 +15,7 @@ use yii\db\Migration;
 /**
  * @author Dmitry Erofeev <dmeroff@gmail.com
  */
-class m150317_174512 extends Migration {
+class m150317_174512_init extends Migration {
 
 	public function safeUp() {
 		$this->createTable('{{%mata_client}}', [
